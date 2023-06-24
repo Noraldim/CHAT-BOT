@@ -144,8 +144,6 @@ offset = 0
 ```
 
 ### try tun the bot from here :)
-
-https://colab.research.google.com/drive/1lc_q6aa8c3fsXlNLRZ2JEv6SW-kJU14k#scrollTo=-6FVJXtflbjU
-
+[Life 2.0](https://t.me/dootobot)
 
 THANK YOU :)
