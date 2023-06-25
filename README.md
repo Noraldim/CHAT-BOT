@@ -146,4 +146,4 @@ offset = 0
 ### try tun the bot from here :)
 [Life 2.0](https://t.me/dootobot)
 
-THANK YOU :)
+
