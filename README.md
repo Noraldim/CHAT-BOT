@@ -1,5 +1,6 @@
-LIFE 2.0  : )
-Demo video show how the bot works .
+LIFE 2.0
+
+Demo video show how the bot works  : )
 
 https://github.com/Noraldim/RESOURCES/assets/58360899/9e719962-d80d-464c-8c43-6815d978d994
 
