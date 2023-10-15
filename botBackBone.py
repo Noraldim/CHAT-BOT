@@ -4,7 +4,7 @@ import requests
 import pandas as pd
 resp = ["ما فهمتك","معليش بحاول أتعلم في السوداني ","Sorry i didn understand you ","have a nice day"]
 dburl = "https://raw.githubusercontent.com/Noraldim/RESOURCES/master/FULL%20BOT%20RESORSEs.tsv"
-url = "https://api.telegram.org/bot5877922080:AAF3bU4om-Yoksl39wZyLR_hvxn87vAqeQw/"
+url = "xxxxxx"
 counter = 0
 # download the tsv file from the link and save it locally
 df = pd.read_csv(dburl, sep = "\t")
