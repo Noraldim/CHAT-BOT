@@ -61,3 +61,45 @@ offset = 0
 
 while True :
   offset = read(offset)
+
+
+///check the partial of the message
+
+def read(offset):
+    para = {"offset": offset}
+    req = requests.get(url + "getUpdates", data=para)
+    data = req.json()
+    print(data)
+    
+    for result in data["result"]:
+        send(result)
+    
+    if data["result"]:
+        return data["result"][-1]["update_id"] + 1
+
+def out(message):
+    global counter
+    best_partial_match = None
+    
+    for _, row in df.iterrows():
+        if row['qus'].lower() in message.lower() or message.lower() in row['qus'].lower():
+            best_partial_match = row['ans']
+    
+    if best_partial_match:
+        return best_partial_match
+    else:
+        counter = (counter + 1) % len(resp)
+        return resp[counter]
+              
+def send(result):
+    text = result["message"]["text"]
+    answer = out(text)
+    parameter = {
+        "chat_id": result["message"]["chat"]["id"],
+        "text": answer,
+        "reply_to_message_id": None
+    }
+    req = requests.get(url + "sendMessage", data=parameter)
+    print(req.text)
+
+offset = 0
