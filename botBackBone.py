@@ -63,7 +63,7 @@ while True :
   offset = read(offset)
 
 
-///check the partial of the message
+///check part of the message 
 
 def read(offset):
     para = {"offset": offset}
