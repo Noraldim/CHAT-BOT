@@ -1,6 +1,6 @@
 #some documention will be here explaining more about how the chatbot can improve in futers
 1 more about the data cleaning prosess 
-2 mange chat
+2  chat
 
 
 
