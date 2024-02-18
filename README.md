@@ -158,3 +158,7 @@ offset = 0
 [Life 2.0](https://t.me/dootobot)
 
 
+## PLANS
+
+
+
