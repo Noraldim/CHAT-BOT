@@ -159,6 +159,7 @@ offset = 0
 
 
 ## PLANS
-
+1 - implment olama using rest API
+2 - DO all hard code stufffff :)
 
 
