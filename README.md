@@ -161,6 +161,6 @@ offset = 0
 1 - implment olama using rest API
 2 - DO all hard code stufffff :)
   - map the model
-  - 
+  - calculate the traning cost on DO 
 
 
