@@ -1,7 +1,7 @@
 LIFE 2.0
 
-Demo video show how the bot works  ; )
-if the bot didn't works the server is down contact me :)) 
+The demo video show how the bot works  ; )
+if the bot didn't work the server is down contact me :)) 
 https://github.com/Noraldim/RESOURCES/assets/58360899/9e719962-d80d-464c-8c43-6815d978d994
 
 
@@ -26,8 +26,8 @@ with open("C:\\THINGS\\githup project\\meshochat.txt", 'r', encoding= "utf-8") a
         one.append(rm)
 
 ```
-to delete the changing number in the date u can use re.compile(r'\d+') to delete any number from chat
-after cleaning the chat you will start to sort data in the table and here you need to learn RELATIONAL DATABASE MANAGEMENT SYSTEM in order to handle the data and store them.
+to delete the changing number in the date u can use re. compile(r'\d+') to delete any number from chat
+after cleaning the chat you will start to sort data in the table and here you need to learn the RELATIONAL DATABASE MANAGEMENT SYSTEM to handle and store the data.
 in my case, I use PostgreSQL to handle chat log data and there are some important things you must get hands-on :
 1- IF you handle your data with PostgreSQL you have to realize that by default it only accepts ASCII characters:
 2- you need to use the "UTF-8" encoding method to avoid any error especially if you use a character out site ASCII list like Arabic characters
