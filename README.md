@@ -1,7 +1,7 @@
 LIFE 2.0
 
-The demo video show how the bot works  ; )
-if the bot didn't work the server is down contact me :)) 
+The demo video shows how the bot works  ; )
+if the bot didn't work and the server is down contact me :)) 
 https://github.com/Noraldim/RESOURCES/assets/58360899/9e719962-d80d-464c-8c43-6815d978d994
 
 
