@@ -4,6 +4,8 @@ The demo video shows how the bot works  ; )
 if the bot didn't work and the server is down contact me :)) 
 https://github.com/Noraldim/RESOURCES/assets/58360899/9e719962-d80d-464c-8c43-6815d978d994
 
+
+
 **data cleaning **
 You can clean with basic cleaning commands in Python using 'open' to open specific files associate it with a variable and use 'replace ' to replace the element. In our case we just need to clean. Finally, we can use append to do the work.
 
